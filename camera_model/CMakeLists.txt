@@ -4,7 +4,8 @@ project(gvins_camera_model)
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -fPIC")
-
+set(Ceres_DIR "/home/supremelyre/deps/ceres-bin-1.12.0/install/lib/cmake/Ceres")
+set(OpenCV_DIR "/usr/local/opencv-4.12.0/lib/cmake/opencv4")
 find_package(catkin REQUIRED COMPONENTS
     roscpp
     std_msgs
